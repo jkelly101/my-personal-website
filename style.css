@@ -1,4 +1,9 @@
 body {
     background: plum;
   }
+
+  #header,
+  #quote {
+    text-align: center;
+  }
   
