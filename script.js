@@ -3,6 +3,13 @@
 
 // document.querySelector("body").appendChild(h2);
 
+function countListItems() {
+    let listItems = document.getElementsByTagName("LI");
+    let totalListItems = listItems.length;
+    alert(totalListItems)
+
+}
+
 const list = document.querySelector("ul");
 
 list.addEventListener(
